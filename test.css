@@ -51,3 +51,42 @@ html{
 .main-column{
     flex: 3;
 }
+.feature-layout{
+    margin-top: 36px ;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.feature-item{
+    padding: 12px 16px;
+    margin-top: 16px;
+    flex-basis: 30%;
+}
+.feature-item:nth-child(1){
+    background-color: rgb(192, 227, 199);
+}
+.feature-item:nth-child(2){
+    background-color: chocolate;
+}
+.feature-item:nth-child(3){
+    background-color: crimson;
+}
+.wrap-layout{
+    background-color: #fff;
+    margin-top: 36px;
+    display: flex;
+    padding: 12px 0 32px 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.wrap-layout__item{
+    width: 160px;
+    height: 90px;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: 700px;
+    background-color: #ef5122;
+}
